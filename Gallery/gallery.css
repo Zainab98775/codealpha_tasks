@@ -1,0 +1,49 @@
+.gallery {
+    max-width: 800px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-thumbnails {
+    flex-basis: 20%;
+    margin: 20px;
+  }
+  
+  .thumbnail {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .gallery-main {
+    flex-basis: 60%;
+    margin: 20px;
+  }
+  
+  #main-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .nav {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .nav button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .nav button:hover {
+    background-color: #3e8e41;
+  }
